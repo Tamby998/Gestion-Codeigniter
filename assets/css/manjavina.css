@@ -1,0 +1,19 @@
+@media  print {
+  #manjavn{
+    display: none;
+  }
+  .panel{
+      width: 740px;
+      margin-top: 100px;
+      margin-left: -200px;
+  }
+  #sidebar-collapse{
+      height: 180px;
+  }
+  .col-sm-3 col-lg-2 sidebar{
+      height: 180px;
+  }
+  .page-header{
+      float: right;      
+  }
+}

@@ -1,0 +1,30 @@
+ html {
+	background-image: url("");
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+  background-position: 50% 50%;
+	margin:auto;
+}
+
+ #body{
+ width: 780px;
+ border: 6px solid black;
+ border-color: rgba(255 , 255, 255, 0.0);
+ border-radius: 0px 0px 0px 0px;
+   margin: auto; 
+   margin-top:5px; 
+   margin-bottom: 4px;  
+   background-color: rgba(255 , 255, 255, 0.5);
+}
+ h1{
+  text-shadow: 3px 3px 3px black;
+  font-family:"cooper black";
+  font-size: 30px;
+  color:deepskyblue;
+}
+
+@media  print {
+  #manjavn{
+    display: none;
+  }
+}
